@@ -1,0 +1,41 @@
+# Standard python ignores
+*.egg-info
+.coverage
+.ipynb_checkpoints
+**/__pycache__/
+.python-version
+*.pyc
+
+# Ignore these macos generated files
+.DS_Store
+
+# Ignore VS Code generated files
+*.vscode
+
+# Raw data
+raw_data/
+*.csv
+*.sqlite
+*.zip
+
+# Data in the package
+# Add files you want to include in the repo in the .keep file in that folder
+data/
+
+# Saved models
+models/
+*.joblib
+
+# Any pickle files
+*.pickle
+*.pckl
+*.pkl
+
+# Credentials (or files with potentially credentials inside)
+.env
+.credentials
+secrets.toml
+*.json
+
+# User defined extras
+# Complete to your desire

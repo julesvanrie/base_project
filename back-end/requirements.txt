@@ -1,0 +1,35 @@
+# packaging
+pip
+setuptools
+twine
+wheel
+
+# python and debugging
+ipdb
+ipykernel
+
+# jupyter and data viz
+matplotlib
+seaborn
+
+# data science
+numpy
+pandas
+
+# Uncomment if you use sklearn
+# scikit-learn
+
+# Install the correct TensorFlow version
+# Uncomment if you use TensorFlow
+# tensorflow-macos==2.10.0; sys_platform == 'darwin' and 'ARM' in platform_version    # Mac Apple Silicon-chips (M1, M2)
+# tensorflow==2.10.0; sys_platform == 'darwin' and 'ARM' not in platform_version      # Mac Intel chips
+# tensorflow==2.10.0; sys_platform != 'darwin'                                        # Windows & Ubuntu Intel chips
+
+# Google Cloud
+google-cloud-storage
+
+python-dotenv
+
+# API
+fastapi
+uvicorn
