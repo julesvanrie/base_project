@@ -25,10 +25,10 @@ clean:
 streamlit: streamlit_local
 
 streamlit_local:
-	-@API=local_api_uri streamlit run app.py
+	-@API_URI=local_api_uri streamlit run app.py
 
 streamlit_local_docker:
-	-@API=local_docker_uri streamlit run app.py
+	-@API_URI=local_docker_uri streamlit run app.py
 
 streamlit_cloud:
-	-@API=cloud_api_uri streamlit run app.py
+	-@API_URI=cloud_api_uri streamlit run app.py
