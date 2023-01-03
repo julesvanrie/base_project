@@ -88,7 +88,8 @@ docker_push:
 
 docker_deploy:
 	gcloud run deploy \
-	 --image $(GCR_MULTI_REGION)/$(PROJECT_ID)/$(DOCKER_IMAGE_NAME):prod \
-	 --platform managed \
-	 --region europe-west1 \
-	 --env-vars-file .env.yaml
+		--project $(PROJECT_ID) \
+		--image $(GCR_MULTI_REGION)/$(PROJECT_ID)/$(DOCKER_IMAGE_NAME):prod \
+		--platform managed \
+		--region europe-west1 \
+		--env-vars-file .env.yaml

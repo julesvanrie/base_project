@@ -1,5 +1,5 @@
 # TODO: Import your package, replace this by explicit imports of what you need
-from packagename import *
+from packagename.main import predict
 
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
@@ -23,7 +23,7 @@ def root():
 
 # Endpoint for https://your-domain.com/predict?input_one=154&input_two=199
 @app.get("/predict")
-def predict(input_one: float,
+def get_predict(input_one: float,
             input_two: float):
     # TODO: Do something with your input
     # i.e. feed it to your model.predict, and return the output

@@ -18,9 +18,11 @@ FROM python:3.10.9-buster
 # Copy everything we need into the image
 COPY packagename packagename
 COPY api api
+COPY scripts scripts
 COPY requirements_prod.txt requirements.txt
 COPY setup.py setup.py
 COPY .env .env
+COPY credentials.json credentials.json
 
 # Install everything
 RUN pip install --upgrade pip
