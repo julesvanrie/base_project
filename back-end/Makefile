@@ -66,6 +66,13 @@ docker_build:
 		--platform linux/amd64 \
 		-t $(GCR_MULTI_REGION)/$(PROJECT_ID)/$(DOCKER_IMAGE_NAME):prod .
 
+# Alternative if previous doesn´t work. Needs additional setup.
+# Probably don´t need this. Used to build arm on linux amd64
+docker_build_alternative:
+	docker buildx build --load \
+		--platform linux/amd64 \
+		-t $(GCR_MULTI_REGION)/$(PROJECT_ID)/$(DOCKER_IMAGE_NAME):prod .
+
 docker_run:
 	docker run \
 		--platform linux/amd64 \
