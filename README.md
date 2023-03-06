@@ -45,9 +45,9 @@ URIs for local and cloud APIs are included in the `.streamlit/secrets.toml` file
 Copy `.env.sample` and `.env.yaml.sample` to new files `.env` and `.env.yaml` and update all variables with your project identifiers.
 
 Requirements.txt:
-- `requirements.txt`: for local usage including ipython, debugging, matplotlib, etc.
-= `requirements_prod.txt`: for production excluding all packages that are redundant in prod
-- Update `requirements.txt` and `requirements_prod.txt` if you use TensorFlow (uncomment the respective lines).
+- `requirements.txt`: for production excluding all packages that are redundant in prod
+= `requirements_dev.txt`: adding packages for local usage including ipython, debugging, matplotlib, etc.
+- Update `requirements.txt` if you use TensorFlow (uncomment the respective lines).
 
 ### Front-end
 
