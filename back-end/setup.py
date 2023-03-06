@@ -1,9 +1,16 @@
+import os
 from setuptools import find_packages
 from setuptools import setup
 
 with open('requirements.txt') as f:
     content = f.readlines()
 requirements = [x.strip() for x in content if 'git+' not in x]
+
+if os.path.isfile('requirements_dev.txt'):
+    with open('requirements_dev.txt') as f:
+        content = f.readlines()
+    requirements.extend([x.strip() for x in content if 'git+' not in x])
+
 
 setup(name='packagename',
       version="0.0.1",
