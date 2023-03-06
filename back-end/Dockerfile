@@ -3,10 +3,10 @@
 #      a slim or tensorflow base
 
 #      Standard version
-FROM python:3.10.9-buster
+FROM python:3.10.10-buster
 
 #      Slim version
-# FROM python:3.10.9-slim-buster
+# FROM python:3.10.10-slim-buster
 
 #      Tensorflow version
 # FROM tensorflow/tensorflow:2.10.0
@@ -19,7 +19,7 @@ FROM python:3.10.9-buster
 COPY packagename packagename
 COPY api api
 COPY scripts scripts
-COPY requirements_prod.txt requirements.txt
+COPY requirements.txt requirements.txt
 COPY setup.py setup.py
 COPY .env .env
 COPY credentials.json credentials.json

@@ -1,37 +1,3 @@
-#           /\              Make sure to
-#          /  \             add essential
-#         / || \            libraries in your
-#        /  ||  \           requirements_prod.txt
-#       /   ||   \          file that is used
-#      /    ..    \         to create the
-#     /____________\        Docker image
-
-
-
-#===================#
-#  For development  #
-#===================#
-
-# packaging
-pip
-setuptools
-twine
-wheel
-
-# python and debugging
-ipdb
-ipykernel
-
-# jupyter and data viz
-matplotlib
-seaborn
-
-
-
-#===================#
-#  For production   #
-#===================#
-
 # data science
 numpy
 pandas
