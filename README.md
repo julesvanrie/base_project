@@ -13,7 +13,8 @@ It contains nothing more than all the configuraton files for the project. No act
 
 ## Using this template:
 
-**/!\   Back-end and front-end should go in separate repositories   /!\\**
+> :warning: **Back-end and front-end should go in separate repositories** :warning:
+
 
 All commands needed have been included in the Makefiles:
 
