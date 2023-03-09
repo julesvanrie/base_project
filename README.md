@@ -15,7 +15,6 @@ It contains nothing more than all the configuraton files for the project. No act
 
 > :warning: **Back-end and front-end should go in separate repositories** :warning:
 
-
 All commands needed have been included in the Makefiles:
 
 ### Back-end
@@ -58,6 +57,8 @@ Complete the following files (if needed):
 - `.streamlit/secrets.toml`: base it on the sample file; reflect the contents also in the Secrets settings on Streamlit Cloud
 
 ## Repository structure (highlights)
+
+> :warning: **Back-end and front-end should go in separate repositories** :warning:
 
 ### Back-end
 
