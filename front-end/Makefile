@@ -16,7 +16,8 @@ clean:
 	@rm -fr proj-*.dist-info
 	@rm -fr proj.egg-info
 
-
+test_structure:
+	@bash tests/test_structure.sh
 
 #======================#
 #       Streamlit      #
