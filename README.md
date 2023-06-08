@@ -15,6 +15,8 @@ It contains nothing more than all the configuraton files for the project. No act
 
 > :warning: **Back-end and front-end should go in separate repositories** :warning:
 
+After you made your repositories, run `make test_structure` to run some tests.
+
 All commands needed have been included in the Makefiles:
 
 ### Back-end
