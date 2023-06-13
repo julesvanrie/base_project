@@ -5,9 +5,13 @@
 **/__pycache__/
 .python-version
 *.pyc
+**/build
 
 # Ignore these macos generated files
 .DS_Store
+
+# Ignore these Windows generated files
+*Zone.Identifier
 
 # Ignore VS Code generated files
 *.vscode
