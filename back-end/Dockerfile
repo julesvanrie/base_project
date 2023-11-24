@@ -21,7 +21,6 @@ COPY api api
 COPY scripts scripts
 COPY requirements.txt requirements_docker.txt
 COPY setup.py setup.py
-COPY .env .env
 COPY credentials.json credentials.json
 
 # Install everything
