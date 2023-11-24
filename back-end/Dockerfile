@@ -19,14 +19,14 @@ FROM python:3.10
 COPY packagename packagename
 COPY api api
 COPY scripts scripts
-COPY requirements.txt requirements.txt
+COPY requirements.txt requirements_docker.txt
 COPY setup.py setup.py
 COPY .env .env
 COPY credentials.json credentials.json
 
 # Install everything
 RUN pip install --upgrade pip
-RUN pip install -r requirements.txt
+RUN pip install -r requirements_docker.txt
 RUN pip install .
 
 # Make directories that we need, but that are not included in the COPY
