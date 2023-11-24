@@ -7,9 +7,7 @@ pandas
 
 # Install the correct TensorFlow version
 # Uncomment if you use TensorFlow
-# tensorflow-macos==2.10.0; sys_platform == 'darwin' and 'ARM' in platform_version    # Mac Apple Silicon-chips (M1, M2)
-# tensorflow==2.10.0; sys_platform == 'darwin' and 'ARM' not in platform_version      # Mac Intel chips
-# tensorflow==2.10.0; sys_platform != 'darwin'                                        # Windows & Ubuntu Intel chips
+# tensorflow~=2.13    # For both Intel and Apple silicon
 
 # Google Cloud
 google-cloud-storage

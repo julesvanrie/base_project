@@ -9,10 +9,10 @@ FROM python:3.10.10-buster
 # FROM python:3.10.10-slim-buster
 
 #      Tensorflow version
-# FROM tensorflow/tensorflow:2.10.0
+# FROM tensorflow/tensorflow:2.13.0
 
 #      Or tensorflow to run on Apple Silicon (M1 / M2)
-# FROM armswdev/tensorflow-arm-neoverse:r22.11-tf-2.10.0-eigen
+# FROM armswdev/tensorflow-arm-neoverse:r23.08-tf-2.13.0-eigen
 
 
 # Copy everything we need into the image
