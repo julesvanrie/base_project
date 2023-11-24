@@ -3,10 +3,10 @@
 #      a slim or tensorflow base
 
 #      Standard version
-FROM python:3.10.10-buster
+FROM python:3.10
 
 #      Slim version
-# FROM python:3.10.10-slim-buster
+# FROM python:3.10-slim
 
 #      Tensorflow version
 # FROM tensorflow/tensorflow:2.13.0
