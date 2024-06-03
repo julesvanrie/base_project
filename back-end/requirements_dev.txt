@@ -8,6 +8,24 @@ wheel
 ipdb
 ipykernel
 
-# jupyter and data viz
+# data viz
 matplotlib
 seaborn
+
+# jupyter
+jupyter-contrib-core==0.4.0
+jupyter-contrib-nbextensions==0.5.1
+jupyter-highlight-selected-word==0.2.0
+jupyter-latex-envs==1.4.6
+jupyter-nbextensions-configurator==0.5.0
+jupyter-resource-usage==0.6.3
+jupyter-server==1.21.0
+jupyter_client==7.4.3
+jupyter_core==4.11.2
+jupyterlab==3.4.8
+jupyterlab-pygments==0.2.2
+jupyterlab-widgets==1.1.1
+jupyterlab_server==2.16.1
+notebook==6.4.12
+notebook_shim==0.2.0
+traitlets==5.5.0
