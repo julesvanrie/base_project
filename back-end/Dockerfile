@@ -24,8 +24,8 @@ COPY setup.py setup.py
 COPY credentials.json credentials.json
 
 # Install everything
-RUN pip install --upgrade pip
-RUN pip install -r requirements_docker.txt
+RUN pip install --no-cache-dir --upgrade pip
+RUN pip install --no-cache-dir -r requirements_docker.txt
 RUN pip install .
 
 # Make directories that we need, but that are not included in the COPY
