@@ -63,7 +63,6 @@ Complete the following files (if needed):
 ### Back-end
 
 - `packagename/`: your package (rename this, and adapt the configuration files - tip: Ctrl-Shift-F or Cmd-Shift-F in VS Code)
-  - `data/`: only small static data (no large files), or temporary files (not tracked by git)
 - `api/`: this is where your API code goes
 - `models/`: your saved models (not tracked by git, should be stored elsewhere: GCS, MLFlow, ...)
 - `raw_data/`: your data (not tracked by git, should be stored elsewhere for cloud: GCS, MLFLow, ...)
