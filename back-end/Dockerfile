@@ -8,24 +8,19 @@ FROM python:3.10
 #      Slim version
 # FROM python:3.10-slim
 
-#      Tensorflow version
-# FROM tensorflow/tensorflow:2.13.0
-
-#      Or tensorflow to run on Apple Silicon (M1 / M2)
-# FROM armswdev/tensorflow-arm-neoverse:r23.08-tf-2.13.0-eigen
-
+#      Tensorflow version (attention: won't run on Apple Silicon)
+# FROM tensorflow/tensorflow:2.16.1
 
 # Copy everything we need into the image
 COPY packagename packagename
 COPY api api
-COPY scripts scripts
-COPY requirements.txt requirements_docker.txt
+COPY requirements.txt requirements.txt
 COPY setup.py setup.py
-COPY credentials.json credentials.json
+# COPY credentials.json credentials.json
 
 # Install everything
 RUN pip install --no-cache-dir --upgrade pip
-RUN pip install --no-cache-dir -r requirements_docker.txt
+RUN pip install --no-cache-dir -r requirements.txt
 RUN pip install .
 
 # Make directories that we need, but that are not included in the COPY
