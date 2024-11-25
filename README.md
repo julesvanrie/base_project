@@ -4,7 +4,7 @@
 
 **This repository has been split in two separate repository templates** for front end and back end to improve students' experience (and reduce issues related to their project structure).
 
-- Front end: [repo](https://github.com/julesvanrie/base_project_back) - [wiki](https://github.com/julesvanrie/base_project_back/wiki)
+- Back end: [repo](https://github.com/julesvanrie/base_project_back) - [wiki](https://github.com/julesvanrie/base_project_back/wiki)
 - Front end: [repo](https://github.com/julesvanrie/base_project_front) - [wiki](https://github.com/julesvanrie/base_project_front/wiki)
 
 **Going forward** this original repo will not be maintained. Any updates and issues will be handled in the two template repositories. The code has been moved into a `main-history` branch for archiving purposes.
