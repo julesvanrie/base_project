@@ -26,5 +26,5 @@ It contains nothing more than all the configuration files for the project. No ac
 
 Refer to the wiki pages in the two template repositories for instructions:
 
-- Front end: [repo](https://github.com/julesvanrie/base_project_back) - [wiki](https://github.com/julesvanrie/base_project_back/wiki)
+- Back end: [repo](https://github.com/julesvanrie/base_project_back) - [wiki](https://github.com/julesvanrie/base_project_back/wiki)
 - Front end: [repo](https://github.com/julesvanrie/base_project_front) - [wiki](https://github.com/julesvanrie/base_project_front/wiki)
